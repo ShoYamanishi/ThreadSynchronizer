@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   sodipodi:docname="binary_oscillator.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.5217931"
+     inkscape:cx="440.78774"
+     inkscape:cy="604.64579"
+     inkscape:window-width="1873"
+     inkscape:window-height="1287"
+     inkscape:window-x="508"
+     inkscape:window-y="90"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     inkscape:snap-global="false" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Sstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Sstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2) translate(6,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path30071" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker130507"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path130505" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path30065" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker84597"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path84595" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path30086" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path30068" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path30062" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#f3cfb8;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="rect98094"
+       width="89.809181"
+       height="35.425228"
+       x="4.5200901"
+       y="7.2085299"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#c6e3e5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="rect31"
+       width="62.566887"
+       height="91.967949"
+       x="15.776178"
+       y="66.270142"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="20.795872"
+       y="76.847359"
+       id="text5536"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan5534"
+         style="stroke-width:0.264583"
+         x="20.795872"
+         y="76.847359">while() {</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#a3af17;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 23.815346,94.388086 h 46.7768"
+       id="path40971"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="29.938885"
+       y="93.161362"
+       id="text7102"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan7100"
+         style="stroke-width:0.264583"
+         x="29.938885"
+         y="93.161362">wait()</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="30.476707"
+       y="145.15105"
+       id="text12898"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan12896"
+         style="stroke-width:0.264583"
+         x="30.476707"
+         y="145.15105">notify()</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="19.899498"
+       y="152.32202"
+       id="text16150"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan16148"
+         style="stroke-width:0.264583"
+         x="19.899498"
+         y="152.32202">}</tspan></text>
+    <rect
+       style="fill:#c6e2e5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+       id="rect19172"
+       width="61.849773"
+       height="90.892303"
+       x="131.40839"
+       y="65.373764"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="134.63535"
+       y="76.847359"
+       id="text19176"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan19174"
+         style="stroke-width:0.264583"
+         x="134.63535"
+         y="76.847359">while() {</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="143.77835"
+       y="93.161362"
+       id="text19180"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan19178"
+         style="stroke-width:0.264583"
+         x="143.77835"
+         y="93.161362">wait()</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="144.31618"
+       y="144.43394"
+       id="text19184"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan19182"
+         style="stroke-width:0.264583"
+         x="144.31618"
+         y="144.43394">notify()</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="133.73897"
+       y="152.32202"
+       id="text19188"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan19186"
+         style="stroke-width:0.264583"
+         x="133.73897"
+         y="152.32202">}</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="10.218662"
+       y="36.331257"
+       id="text20402"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan20400"
+         style="stroke-width:0.264583"
+         x="10.218662"
+         y="36.331257">notify() </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="8.2466421"
+       y="16.611036"
+       id="text22392"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan22390"
+         style="font-size:6.35px;stroke-width:0.264583"
+         x="8.2466421"
+         y="16.611036">This primes the oscillation</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.35px;stroke-width:0.264583"
+         x="8.2466421"
+         y="24.548536"
+         id="tspan55142">from the parent thread.</tspan></text>
+    <circle
+       style="fill:#a4af17;fill-opacity:0.87451;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       id="path28688"
+       cx="73.5923"
+       cy="142.45399"
+       r="1.882385"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#a3af17;stroke-width:1.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 75.2954,142.54364 h 10.935756 c 9.11294,-0.48682 23.200924,-47.640095 34.158214,-47.897121 l 13.70816,-0.148517"
+       id="path30057"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#a3af17;fill-opacity:1;stroke:none;stroke-width:0.0695146px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 64.10738,88.937131 h 2.464622 v 3.197347 h 1.865119 l -3.075206,1.320106 -3.186265,-1.320106 h 1.923996 z"
+       id="path51357"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#a3af17;fill-opacity:1;stroke:none;stroke-width:0.0695146px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 64.234146,96.036049 h 2.464622 v 3.197347 h 1.865119 l -3.075206,1.320104 -3.186265,-1.320104 h 1.923996 z"
+       id="path51359"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#a3af17;stroke-width:1.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 139.29066,142.43255 H 128.3549 C 119.24196,141.94573 105.15398,94.792458 94.196686,94.535432 l -13.70816,-0.148517"
+       id="path51361"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <circle
+       style="fill:#a4af17;fill-opacity:0.87451;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       id="circle51363"
+       cx="140.492"
+       cy="142.45399"
+       r="1.882385"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#a3af17;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 138.04243,94.388086 h 46.7768"
+       id="path51365"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#a3af17;fill-opacity:1;stroke:none;stroke-width:0.0695146px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 178.33447,88.176533 h 2.46462 v 3.197347 h 1.86512 l -3.07521,1.320106 -3.18626,-1.320106 h 1.92399 z"
+       id="path51367"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#a3af17;fill-opacity:1;stroke:none;stroke-width:0.0695146px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 178.46123,96.036049 h 2.46462 v 3.197347 h 1.86512 l -3.0752,1.320104 -3.18627,-1.320104 h 1.924 z"
+       id="path51369"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="140.37215"
+       y="62.146824"
+       id="text52611"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan52609"
+         style="stroke-width:0.264583"
+         x="140.37215"
+         y="62.146824">Thread 2</tspan></text>
+    <circle
+       style="fill:#a4af17;fill-opacity:0.87451;stroke:none;stroke-width:0.264583;stroke-opacity:1"
+       id="circle57896"
+       cx="54.05135"
+       cy="33.275661"
+       r="1.882385"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#a3af17;stroke-width:1.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 55.933725,33.339246 h 6.095337 c 8.754391,0.12827 8.141843,3.538504 7.984094,28.176898 l 0.08328,27.756831"
+       id="path57898"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="24.202089"
+       y="62.684647"
+       id="text51659"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan51657"
+         style="stroke-width:0.264583"
+         x="24.202089"
+         y="62.684647">Thread 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="56.650826"
+       y="185.01155"
+       id="text135981"
+       inkscape:export-filename="/Users/shoichiroyamanishi/workarea/AppleNumericalComputing/01_cpu_parallel_processing/binary_oscillator.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan135979"
+         style="stroke-width:0.264583"
+         x="56.650826"
+         y="185.01155">Binary Oscillator</tspan></text>
+  </g>
+</svg>
